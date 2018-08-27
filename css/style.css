@@ -1,9 +1,36 @@
 html{
+    display: block;
     font-size: 24px;
 }
 
 body{
     width: 80%;
     margin: auto;
-    background-color: #093409;
+    
+    
 }
+
+nav{
+    background-color: #cacaa5;
+    height:2rem;
+}
+
+nav li{
+    display: inline;
+    padding: 8px;
+    overflow: hidden;
+    background-color: #97971f;
+}
+nav li:hover{
+    background-color: #575711;
+}
+
+
+.container{
+    background-color: #a1a191;
+    height: 100%;
+}
+
+
+
+
